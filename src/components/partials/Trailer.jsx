@@ -2,6 +2,7 @@
 import ReactPlayer from "react-player";
 import { useSelector } from "react-redux";
 import { Link, useLocation, useNavigate } from "react-router-dom";
+import NotFound from "../NotFound";
 
 const Trailer = () => {
     const navigate = useNavigate();
