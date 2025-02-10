@@ -1,4 +1,4 @@
-import anime from "/anime.gif";
+
 
 const Loading = () => {
     return (
