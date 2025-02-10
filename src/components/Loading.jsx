@@ -1,12 +1,18 @@
 
-
 const Loading = () => {
     return (
-        <div className="animate-pulse">
-  <div className="bg-gray-700 h-6 w-3/4 mb-4 rounded"></div>
-  <div className="bg-gray-700 h-4 w-1/2 mb-4 rounded"></div>
-  <div className="bg-gray-700 h-4 w-2/3 mb-4 rounded"></div>
-</div>
+        <div className="w-screen h-screen flex justify-center items-center ">
+        <div class="spinner">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      </div>
     );
 };
 
